@@ -1,0 +1,112 @@
+{
+  "vessels": {
+    "data": {
+      "table_columns": [
+        {
+          "field": "vessel_name",
+          "header": "Vessel name"
+        },
+        {
+          "field": "imo_number",
+          "header": "IMO number"
+        },
+        {
+          "field": "vessel_main_type",
+          "header": "Vessel main type"
+        },
+        {
+          "field": "vessel_sub_type",
+          "header": "Vessel sub type"
+        },
+        {
+          "field": "flag",
+          "header": "Flag"
+        },
+        {
+          "field": "commercial_operator",
+          "header": "Commercial operator"
+        },
+        {
+          "field": "technical_manager",
+          "header": "Technical Manager"
+        },
+        {
+          "field": "owner_group",
+          "header": "Owner Group"
+        },
+        {
+          "field": "parent_company",
+          "header": "Parent Company"
+        }
+      ],
+      "table_data": [
+        {
+          "total_records": 2
+        },
+        {
+          "data": [
+            {
+              "vessel_name": {
+                "name": "Vutivi",
+                "id": 1
+              },
+              "vessel_name_type": "M/T",
+              "imo_number": "5464554",
+              "vessel_main_type": "Vutivi",
+              "vessel_sub_type": "Shivambu",
+              "commercial_operator": "company",
+              "technical_manager": "company",
+              "owner_group": "Group",
+              "parent_company": "company",
+              "deleted": "true"
+            },
+            {
+              "vessel_name": {
+                "name": "Xanani",
+                "id": 2
+              },
+              "vessel_name_type": "M/T",
+              "imo_number": "number",
+              "vessel_main_type": "Shivambu",
+              "vessel_sub_type": "Vutivi",
+              "commercial_operator": "company",
+              "technical_manager": "company",
+              "owner_group": "Group",
+              "parent_company": "Vutivi",
+              "deleted": "false"
+            },
+            {
+              "vessel_name": {
+                "name": "Andreas",
+                "id": 3
+              },
+              "vessel_name_type": "M/T",
+              "imo_number": "number",
+              "vessel_main_type": "Shivambu",
+              "vessel_sub_type": "company",
+              "commercial_operator": "company",
+              "technical_manager": "company",
+              "owner_group": "Group",
+              "parent_company": "Vutivi",
+              "deleted": "false"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "vessel_types": {
+    "data": [
+      {
+        "id": 1,
+        "name": "Vutivi",
+        "active": false
+      },
+      {
+        "id": 2,
+        "name": "Shivambu",
+        "active": false
+      }
+    ]
+  }
+}
